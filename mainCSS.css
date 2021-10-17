@@ -114,51 +114,51 @@
     
 }
 
-@media (max-width: 768px){
-    
-    #logoDESIGN {
-    margin-top: -50vh;
-    margin-left: 5vw;
-    width: 12vw;
-    }
+@media (max-width: 414px){
     
     .firstchildBOX {
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .firstBOX {
-    background-repeat: no-repeat;
-    background-size: auto;
-    overflow: hidden;
-    
-    }
-    
-    #dribbbleiconANIMATION, #instaiconANIMATION, #whatsappiconANIMATION {
-    width: 6vw;
+    width: 17vw;
     }
     
     #BG {
-    width: 150vw;
-    margin-left: -25vw;
+    width: auto;
+    height: 80vh;
+    margin-left: -30vw;
     margin-top: 10vh;
-    overflow: hidden;
+    }
     
+    #logoDESIGN {
+    width: 10vw;
+    margin-top: -55vh;
+    margin-left: 2vw;
+    }
+    
+    .secondchildBOX {
+    width: 65vw;
+    }
+    
+    .textBOX {
+    width: auto;
     }
     
     #upperTEXT {
-    font-size: 4vw;
-        
+    font-size: 3.5vw;
     }
     
     #lowerTEXT {
-    font-size: 5vw;
-    margin-left: -2vw;
-        
+    font-size: 6vw;
     }
-
     
+    .thirdchildBOX {
+    width: 17vw;
+    }
+    
+    .socialmediaBOX {
+    margin-right: -5vw;
+    margin-top: 60vh;
+    }
+    
+    #whatsappiconANIMATION, #instaiconANIMATION, #dribbbleiconANIMATION {
+    width: 6vw;
+    }
 }
