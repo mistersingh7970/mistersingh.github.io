@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.parentBOX {
+    border: 5px solid black;
+    width: 100vw;
+    height: 400vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.parentBOX > .firstBOX {
+    border: 3px solid white;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("imagesUSED/landingpage.png");
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+}
+
+.firstchildBOX {
+    /border: 2px dotted yellow;
+    width: 11vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoDESIGN {
+    /border: 2px dotted white;
+    width: 6vw;
+    height: auto; 
+    margin-bottom: 30vw;
+}
+
+.secondchildBOX {
+    /border: 2px dotted yellow;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textBOX {
+    /border: 2px dotted white;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh; 
+}
+
+#upperTEXT {
+    font-size: 2.5vw;
+    color: white;
+    font-family: 'Federo', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#lowerTEXT {
+    color: white;
+    display: flex;
+    font-size: 4vw;
+    font-family: 'Federo', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.thirdchildBOX {
+    /border: 2px dotted yellow;
+    width: 10vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+#dribbbleiconANIMATION, #instaiconANIMATION, #whatsappiconANIMATION {
+    width: 4vw;
+    height: auto;
+    
+}
