@@ -1,11 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
 
@@ -16,149 +12,37 @@
     overflow-x: hidden;
 }
 
-.parentBOX {
-    border: 5px solid black;
-    width: 100vw;
-    height: 400vh;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
 
-.parentBOX > .firstBOX {
-    border: 3px solid white;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow: hidden;
-}
-
-#BG {
-    width: 100vw;
-    height: auto;
-    position: absolute;
-    z-index: 0;
-}
-
-.firstchildBOX {
-    /border: 2px dotted yellow;
-    width: 11vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-
-#logoDESIGN {
-    /border: 2px dotted white;
-    width: 6vw;
-    height: auto; 
-    margin-bottom: 30vw;
-}
-
-.secondchildBOX {
-    /border: 2px dotted yellow;
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
-}
-
-.textBOX {
-    /border: 2px dotted white;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10vh; 
-}
-
-#upperTEXT {
-    font-size: 2.5vw;
-    color: white;
-    font-family: 'Federo', sans-serif;
-    font-weight: 100;
-    letter-spacing: 2px;
-}
-
-#lowerTEXT {
-    color: white;
-    display: flex;
-    font-size: 4vw;
-    font-family: 'Federo', sans-serif;
-    font-weight: 100;
-    letter-spacing: 2px;
-}
-
-.thirdchildBOX {
-    /border: 2px dotted yellow;
-    width: 10vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 2vw;
-    z-index: 1;
-}
-
-#dribbbleiconANIMATION, #instaiconANIMATION, #whatsappiconANIMATION {
-    width: 4vw;
-    height: auto;
-    
-}
-
-@media (max-width: 414px){
-    
+@media (max-width: 375px){
+    .mainBOX {
+        border: 2px solid red;
+        width: auto;
+        height: 400vh;
+        }
     .firstchildBOX {
-    width: 17vw;
+        width: 100vw;
+        height: 100vh;
+        border: 3px solid blue;
+        background-color: black;
+        
     }
-    
-    #BG {
-    width: auto;
-    height: 80vh;
-    margin-left: -30vw;
-    margin-top: 10vh;
+    .backgroundimageBOX {
+        border: 2px solid white;
+        width: 100vw;
+        overflow: hidden;
     }
+    #backgroundIMAGE {
+        width: 200vw;
+        margin-left: -55vw;
+        margin-top: 8vh;
+    }
+    .logoBOX{
+        margin-top: -95vh;
+        margin-left: 5vw;
     
+        
+    }
     #logoDESIGN {
-    width: 10vw;
-    margin-top: -55vh;
-    margin-left: 2vw;
-    }
-    
-    .secondchildBOX {
-    width: 65vw;
-    }
-    
-    .textBOX {
-    width: auto;
-    }
-    
-    #upperTEXT {
-    font-size: 3.5vw;
-    }
-    
-    #lowerTEXT {
-    font-size: 6vw;
-    }
-    
-    .thirdchildBOX {
-    width: 17vw;
-    }
-    
-    .socialmediaBOX {
-    margin-right: -5vw;
-    margin-top: 60vh;
-    }
-    
-    #whatsappiconANIMATION, #instaiconANIMATION, #dribbbleiconANIMATION {
-    width: 6vw;
+        width: 15vw;
     }
 }
