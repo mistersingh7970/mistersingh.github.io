@@ -34,3 +34,19 @@
     width: 100vw;
     height: 100vh;
 }
+
+@media (max-width: 414px){
+    .firstchild_BOX{
+        background-color: black;
+    }
+    .backgroundimage_BOX{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+    #backgroundIMAGE {
+        width: 85vw;
+        height: 90vh;
+    }
+}
