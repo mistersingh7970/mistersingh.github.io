@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.PARENT_BOX {
+  border: 3px solid red;
+  width: 100vw;
+  height: 100vh;
+}
+
+.FIRST_CHILD_BOX {
+  border: 2px solid blue;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(IMAGES/landingpage.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 414) {
+  .FIRST_CHILD_BOX {
+    border: 2px solid blue;
+    width: 200vw;
+    height: 100vh;
+    background-image: url(IMAGES/landingpage.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+/*# sourceMappingURL=style.css.map */
